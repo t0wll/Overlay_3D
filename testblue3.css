@@ -53,6 +53,7 @@
     background: url('https://cdn.jsdelivr.net/gh/t0wll/Overlay_3D@main/Assets/ds4_bumper3D_blue2_right.png') no-repeat;
     opacity: 0;
     float: right;
+    transform: translateX(2px);
 }
 
 /* BUMPER CONTAINER */
