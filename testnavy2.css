@@ -1,0 +1,358 @@
+.controller.custom {
+    background: url('https://cdn.jsdelivr.net/gh/t0wll/Overlay_3D@main/AssetsNavy/ds4_base3D_navy.png');
+    height: 598px;
+    width: 806px;
+    /*    margin-left: -403px;
+        margin-top: -280px;*/
+}
+
+.custom.disconnected {
+    background: url('https://cdn.jsdelivr.net/gh/t0wll/Overlay_3D@main/AssetsNavy/ds4_disconnected3D_navy.png');
+}
+
+.custom.disconnected div {
+    display: none;
+}
+
+.custom .triggers {
+    width: 588px;
+    height: 90px;
+    position: absolute;
+    left: 109px;
+}
+
+.custom .trigger {
+    width: 250px;
+    height: 200px;
+    background: url('https://cdn.jsdelivr.net/gh/t0wll/Overlay_3D@main/AssetsNavy/ds4_triggers3D_navy.png');
+    opacity: 0;
+}
+
+.custom .trigger.left {
+    transform: translate(-50px, -30px);
+    background-position: -54px -64px;
+}
+
+.custom .trigger.right {
+    transform: translate(50px, -40px);
+    background-position: -268px -54px;
+}
+
+/* LEFT BUMPER */
+.custom .bumper.left {
+    width: 200px;
+    height: 100px;
+    background: url('https://cdn.jsdelivr.net/gh/t0wll/Overlay_3D@main/AssetsNavy/ds4_bumper3D_navy.png') no-repeat;
+    opacity: 0;
+    float: left;
+    transform: translate(-64px, -37px);
+}
+
+/* RIGHT BUMPER */
+.custom .bumper.right {
+    width: 200px;
+    height: 100px;
+    background: url('https://cdn.jsdelivr.net/gh/t0wll/Overlay_3D@main/AssetsNavy/ds4_bumper3D_navy_right.png') no-repeat;
+    opacity: 0;
+    float: right;
+    transform: translate(39px, -37px);
+}
+
+/* BUMPER CONTAINER */
+.custom .bumpers {
+    position: absolute;
+    width: 588px;
+    height: 23px;
+    left: 109px;
+    top: 94px;
+}
+
+/* SHOW BUMPERS WHEN PRESSED */
+.custom .bumper.pressed {
+    opacity: 1;
+}
+
+.custom .touchpad {
+width: 280px;
+height: 166px;
+position: absolute;
+left: 265px;
+top: 113px;
+}
+
+.custom .touchpad.pressed {
+    background: url('https://cdn.jsdelivr.net/gh/t0wll/Overlay_3D@main/AssetsNavy/ds4_touchpad3d_navy.png') no-repeat center;
+}
+
+.custom .meta {
+    width: 106px;
+    height: 108px;
+    position: absolute;
+    left: 350px;
+    bottom: 187px;
+}
+
+.custom .meta.pressed {
+    background: url('https://cdn.jsdelivr.net/gh/t0wll/Overlay_3D@main/AssetsNavy/ds4_meta3D_navy.png') no-repeat center;
+}
+
+/*Not needed, but I like keeping them here for posterity*/
+/*.ds4 .quadrant{
+position: absolute;
+background: url(ps4-assets/player-n.svg);
+height: 17px;
+width: 111px;
+top: 140px;
+left: 240px;
+}
+.ds4 .p0{
+background-position: 0 -6px;
+}
+.ds4 .p1{
+background-position: 0 -28px;
+}
+.ds4 .p2{
+background-position: 0 -49px;
+}
+.ds4 .p3{
+background-position: 0 -70px;
+}*/
+.custom .arrows {
+    position: absolute;
+    width: 352px;
+    height: 46px;
+    top: 142px;
+    left: 227px;
+}
+
+.custom .back, .custom .start {
+    background: url('https://cdn.jsdelivr.net/gh/t0wll/Overlay_3D@main/AssetsNavy/ds4_start3D_navy.png');
+    width: 100px;
+    height: 150px;
+    opacity: 0;
+}
+
+.custom .back.pressed, .custom .start.pressed {
+    width: 100px;
+    height: 150px;
+    opacity: 1;
+}
+
+.custom .back {
+    float: left;
+    left: -50px
+    top: -50px
+}
+
+.custom .start {
+    float: right;
+    /* width: 28px; */
+    background-position: 28px 0;
+}
+
+/* BACK - normal */
+.custom .back {
+transform: translate(-4px, -4px);
+}
+
+/* BACK - pressed */
+.custom .back.pressed {
+    transform: translate(-39px, -49px);
+    width: 100px;
+    height: 150px;
+}
+
+/* START - normal */
+.custom .start {
+transform: translate(0px, 0px);
+}
+
+/* START - pressed */
+.custom .start.pressed {
+    background-position: -1px 11px;
+    transform: translate(40px, -60px);
+    width: 100px;
+    height: 150px;
+}
+
+.custom .abxy {
+position: absolute;
+width: 170px;
+height: 171px;
+top: 159px;
+left: 567px;
+}
+
+.custom .button {
+position: absolute;
+width: 60px;
+height: 60px;
+background: url('https://cdn.jsdelivr.net/gh/t0wll/Overlay_3D@main/AssetsNavy/ds4_face3D_navy.png');
+}
+
+.custom .button.a.pressed {
+    width: 120px;
+    height: 120px;
+    background-position: -10px 170px;
+    top: 81px;
+    left: 13px;
+}
+
+.custom .button.b.pressed {
+    width: 120px;
+    height: 120px;
+    background-position: -154px 170px;
+    top: 22px;
+    left: 73px;
+}
+
+.custom .button.x.pressed {
+    width: 120px;
+    height: 120px;
+    background-position: -310px 170px;
+    top: 22px;
+    left: -38px;
+}
+
+.custom .button.y.pressed {
+    width: 120px;
+    height: 120px;
+    background-position: -450px 170px;
+    top: -37px;
+    left: 17px;
+}
+
+.custom .a {
+background-position: 0 3px;
+bottom: 0;
+left: 58px;
+top: 56 px;
+}
+.custom .b {
+background-position: -61px 2px;
+top: 54px;
+right: -8px;
+}
+.custom .x {
+background-position: -123px 0px;
+top: 55px;
+}
+.custom .y {
+background-position: 62px 0;
+left: 58px;
+top: -4px;
+}
+
+.custom .sticks {
+    position: absolute;
+    width: 361px;
+    height: 105px;
+    top: 308px;
+    left: 228px;
+}
+
+.custom .stick {
+    position: absolute;
+    background: url('');
+    height: 94px;
+    width: 94px;
+}
+
+.custom .stick.pressed.left {
+    background-position-x: -96px;
+}
+
+.custom .stick.pressed.right {
+    background-position-x: -192px;
+}
+
+.custom .stick.left {
+    top: 0;
+    left: 0;
+}
+
+.custom .stick.right {
+    top: calc(100% - 105px);
+    left: calc(100% - 105px);
+}
+
+.custom .dpad {
+    position: absolute;
+    width: 125px;
+    height: 126px;
+    top: 181px;
+    left: 92px;
+}
+
+.custom .face {
+    background: url('https://cdn.jsdelivr.net/gh/t0wll/Overlay_3D@main/AssetsNavy/ds4_dpad3D_navy.png');
+    position: absolute;
+}
+
+.custom .face.up, .custom .face.down {
+width: 41px;
+height: 53px;
+}
+.custom .face.left, .custom .face.right {
+width: 57px;
+height: 50px;
+}
+.custom .face.up {
+left: 40px;
+top: 0;
+background-position: -45px -4px;
+}
+.custom .face.down {
+left: 38px;
+bottom: 0;
+background-position: 0px -1px;
+}
+.custom .face.left {
+top: 40px;
+left: -6px;
+background-position: 121px 1px;
+}
+.custom .face.right {
+top: 37px;
+right: 0px;
+background-position: 65px 4px;
+}
+
+/* PRESSED UP */
+.custom .face.up.pressed {
+    width: 124px;
+    height: 137px;
+    top: -41px;
+    left: -1px;
+    background-position: -127px -55px;
+}
+
+/* PRESSED DOWN */
+.custom .face.down.pressed {
+    width: 124px;
+    height: 137px;
+    top: 45px;
+    left: -1px;
+    background-position: -2px -65px;
+}
+
+/* PRESSED LEFT */
+.custom .face.left.pressed {
+    width: 124px;
+    height: 137px;
+    top: -1px;
+    left: -40px;
+    background-position: -265px -50px;
+}
+
+/* PRESSED RIGHT */
+.custom .face.right.pressed {
+    width: 124px;
+    height: 137px;
+    top: -1px;
+    left: 37px;
+    background-position: -401px -50px;
+}
+.custom.half {
+margin-top: -300px;
+}
