@@ -29,11 +29,13 @@
 }
 
 .custom .trigger.left {
+    float: left;
     transform: translate(-50px, -30px);
     background-position: -54px -64px;
 }
 
 .custom .trigger.right {
+    float: right;
     transform: translate(50px, -40px);
     background-position: -268px -54px;
 }
